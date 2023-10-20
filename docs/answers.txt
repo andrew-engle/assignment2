@@ -1,0 +1,38 @@
+Date of Git Lab Tutorials: October 18th
+Date of GitHUb Account: Roughly May 2022
+
+1). On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+2). 9 commits have been done. I found this by using git rev-list --count HEAD
+
+3). Last Modification Date: Thu Oct 19 19:27:53 2023 -0500. I found this by using git log -1 --format="%ad" --README.md
+
+4). Reason 1: To work on new features or bug fixes separately from the main code. Reason 2: To experiment with changes without affecting the stablecode.
+
+5). Git log shows a detailed history of commits, while git status shows the current status of your working directory and staged changes.
+
+6). Command: git log --oneline -- Vehicle.h
+
+7). Command: git log --grep="file"
+
+8). In the context of object-oriented programming:
+   I. What is inheritance? 
+	Inheritance allows a subclass to inherit properties and behaviors from a superclass, promoting code reuse and creating a hierarchical class structure. It establishes an "is-a" relationship.
+   II. What is polymorphism?
+	Polymorphism allows objects of different classes to be treated as objects of a common base class, enabling generic code to work with various objects. It comes in two forms: compile-time (method overloading) and run-time (method overriding) polymorphism.
+ III. What is encapsulation? 
+	Encapsulation bundles data and methods into a class, promoting data hiding and controlled access through methods. It enhances data integrity, security, and code maintainability.
+
+9). The main difference is how changes are integrated, in Dictator and Lieutenants Workflow contributors use branches and pull requests within the same repository, and decisions are made within that repository. Where as in Integration Manager Workflow, contributors fork the repository and create pull requests from their forks, with the integration manager handling decisions in the central repository.
+
+10). The "Dictator and Lieutenants" workflow is particularly advantageous for teams of 100 developers due to its decentralized and efficient collaboration structure. It distributes responsibility for code review and integration among specialized lieutenants, preventing bottlenecks and accelerating development. As the project complexity grows, this workflow allows for better control, quality assurance, and scalability, making it an ideal choice for substantial development efforts.
+
+
